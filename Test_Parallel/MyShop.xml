@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyShop" verbose="2" thread-count="2" parallel="tests"> 
+
+
+
+<test name="Amazon">
+<classes>
+<class name="Pack2.Amazon">
+</class>
+</classes>
+</test>
+
+<test name="Myntra">
+<classes>
+<class name="Pack3.Myntra">
+</class>
+</classes>
+</test>
+
+<test name="Fb">
+<classes>
+<class name="Pack1.Fb">
+</class>
+</classes>
+</test>
+
+
+</suite>
